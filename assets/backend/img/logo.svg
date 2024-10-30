@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162" height="48" viewBox="0 0 162 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-12.783" y1="11.546" x2="-12.783" y2="12.531" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4284e7"/>
+      <stop offset="1" stop-color="#9624b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-12.783" y1="11.546" x2="-12.783" y2="12.531" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#265de6"/>
+      <stop offset="1" stop-color="#9624b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-12.783" y1="11.546" x2="-12.783" y2="12.531" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ea6f8"/>
+      <stop offset="1" stop-color="#9624b3"/>
+    </linearGradient>
+    <clipPath id="clip-custom_1">
+      <rect width="162" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="162" height="48" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-329.88 -52.743)">
+      <path id="Path_1" data-name="Path 1" d="M380.457,88.079h9.128L374.524,63.023l-4.665,7.953Z" transform="translate(-14.637)" fill="url(#linear-gradient)"/>
+      <path id="Path_2" data-name="Path 2" d="M412.153,88.079h9.128L406.22,63.023l-4.665,7.953Z" transform="translate(-33.17)" fill="url(#linear-gradient-2)"/>
+      <g id="Group_1-2" data-name="Group 1" transform="translate(344.825 74.438)">
+        <path id="Path_3" data-name="Path 3" d="M344.825,104.151H362.36L353.085,90.51Z" transform="translate(-344.825 -90.51)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+    <text id="Mitxen" transform="translate(67 8)" fill="#04143a" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="26">Mitxen</tspan></text>
+  </g>
+</svg>

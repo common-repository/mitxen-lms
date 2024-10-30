@@ -1,0 +1,8 @@
+#toast-container > div {
+  border-radius: 4px;
+}
+
+#toast-container > .toast-success {
+  background-image: url(img/check.png) !important;
+  background-size: 20px 20px;
+}

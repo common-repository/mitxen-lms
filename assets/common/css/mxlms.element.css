@@ -1,0 +1,73 @@
+/* MOST USED FONT SIZES IN PIXELS*/
+
+.mxlms-font-12 {
+  font-size: 12px;
+}
+.mxlms-font-13 {
+  font-size: 13px;
+}
+.mxlms-font-14 {
+  font-size: 14px;
+}
+.mxlms-font-15 {
+  font-size: 15px;
+}
+.mxlms-font-16 {
+  font-size: 16px;
+}
+.mxlms-font-17 {
+  font-size: 17px;
+}
+.mxlms-font-18 {
+  font-size: 18px;
+}
+.mxlms-font-19 {
+  font-size: 19px;
+}
+.mxlms-font-20 {
+  font-size: 20px;
+}
+.mxlms-font-21 {
+  font-size: 21px;
+}
+.mxlms-font-22 {
+  font-size: 22px;
+}
+.mxlms-font-23 {
+  font-size: 23px;
+}
+.mxlms-font-24 {
+  font-size: 24px;
+}
+.mxlms-font-25 {
+  font-size: 25px;
+}
+.mxlms-font-26 {
+  font-size: 26px;
+}
+.mxlms-font-27 {
+  font-size: 27px;
+}
+.mxlms-font-28 {
+  font-size: 28px;
+}
+.mxlms-font-29 {
+  font-size: 29px;
+}
+.mxlms-font-30 {
+  font-size: 30px;
+}
+
+/*COMMON MARGINS*/
+.mxlms-mb-30 {
+  margin-bottom: 30px !important;
+}
+
+/* DISPLAY CSS */
+.mxlms-display-block {
+  display: block !important;
+}
+
+.mxlms-display-inline {
+  display: inline !important;
+}

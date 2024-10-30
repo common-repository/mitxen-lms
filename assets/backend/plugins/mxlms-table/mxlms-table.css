@@ -1,0 +1,83 @@
+/* MXLMS RESPONSIVE TABLE */
+
+.mxlms-responsive-table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.mxlms-responsive-table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+.mxlms-responsive-table tr {
+  background-color: #fff;
+  padding: 0.35em;
+}
+
+.mxlms-responsive-table tbody tr {
+  background-color: #fff;
+  padding: 0.35em;
+  border-bottom: 1px solid #e8f0fe;
+}
+
+.mxlms-responsive-table th,
+.mxlms-responsive-table td {
+  padding: 0.8em;
+  text-align: left;
+}
+
+.mxlms-responsive-table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mxlms-responsive-table tbody tr:hover {
+  background-color: #e8f0fe;
+  padding: 0.35em;
+}
+
+.mxlms-responsive-table tbody tr:hover td:first-child {
+  -moz-border-radius-topleft: 35px;
+  -moz-border-radius-bottomleft: 35px;
+  -webkit-border-top-left-radius: 35px;
+  -webkit-border-bottom-left-radius: 35px;
+}
+
+.mxlms-responsive-table tbody tr:hover td:last-child {
+  -moz-border-radius-topright: 35px;
+  -moz-border-radius-bottomright: 35px;
+  -webkit-border-top-right-radius: 35px;
+  -webkit-border-bottom-right-radius: 35px;
+}
+
+.mxlms-responsive-table tbody .mxlms-clickable-row {
+  cursor: pointer;
+}
+
+.mxlms-responsive-table thead tr th:first-child {
+  padding-left: 20px;
+}
+
+.mxlms-responsive-table thead tr th:last-child {
+  padding-left: 20px;
+}
+
+.mxlms-responsive-table tbody tr td:first-child {
+  padding-left: 20px;
+  height: 60px;
+}
+
+.mxlms-responsive-table tbody tr td:last-child {
+  padding-right: 20px;
+}
+
+.mxlms-responsive-table tbody tr.mxlms-summary-row td{
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #fafad2;
+}

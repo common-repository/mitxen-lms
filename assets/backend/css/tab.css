@@ -1,0 +1,130 @@
+/*
+ CSS for the main interaction
+*/
+.mxlms-tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.mxlms-tabset .mxlms-tab-panel {
+  display: none;
+}
+
+.mxlms-tabset
+  > input:first-child:checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:first-child,
+.mxlms-tabset
+  > input:nth-child(3):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(2),
+.mxlms-tabset
+  > input:nth-child(5):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(3),
+.mxlms-tabset
+  > input:nth-child(7):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(4),
+.mxlms-tabset
+  > input:nth-child(9):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(5),
+.mxlms-tabset
+  > input:nth-child(11):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(6),
+.mxlms-tabset
+  > input:nth-child(13):checked
+  ~ form
+  .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(7) {
+  display: block;
+}
+
+.mxlms-tabset
+  > input:first-child:checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:first-child,
+.mxlms-tabset
+  > input:nth-child(3):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(2),
+.mxlms-tabset
+  > input:nth-child(5):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(3),
+.mxlms-tabset
+  > input:nth-child(7):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(4),
+.mxlms-tabset
+  > input:nth-child(9):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(5),
+.mxlms-tabset
+  > input:nth-child(11):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(6),
+.mxlms-tabset
+  > input:nth-child(13):checked
+  ~ .mxlms-tab-panels
+  > .mxlms-tab-panel:nth-child(7) {
+  display: block;
+}
+
+.mxlms-tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 0px 30px 10px 10px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.mxlms-tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+}
+
+.mxlms-tabset > label:hover,
+.mxlms-tabset > input:focus + label {
+  color: #06c;
+}
+
+.mxlms-tabset > label:hover::after,
+.mxlms-tabset > input:focus + label::after,
+.mxlms-tabset > input:checked + label::after {
+  background: #3699ff;
+}
+
+.mxlms-tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #e2e6ed;
+}
+
+/*
+   Demo purposes only
+  */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.mxlms-tabset i.las,
+.lar {
+  font-size: 16px;
+}

@@ -1,0 +1,265 @@
+/*!
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/)
+ */
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.mxlms-fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.mxlms-fade.mxlms-in {
+  opacity: 1;
+}
+
+.mxlms-custom-modal-close {
+  float: right;
+  font-size: 21px;
+  font-weight: 200;
+  font-family: auto !important;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  filter: alpha(opacity=20);
+  opacity: 0.2;
+}
+
+.mxlms-custom-modal-close:hover,
+.mxlms-custom-modal-close:focus {
+  color: #3699ff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  border: 1px solid #3699ff;
+  background-color: rgb(204 235 249 / 80%);
+  font-family: auto !important;
+}
+
+button.mxlms-custom-modal-close {
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+
+  margin-top: -2px;
+  border: 1px solid #212529;
+  padding: 2px 11px 4px;
+  background-color: #ffffff;
+  color: #212529;
+  border-radius: 3px;
+}
+
+.mxlms-custom-modal-open {
+  overflow: hidden;
+}
+
+.mxlms-custom-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.mxlms-custom-modal.mxlms-fade .mxlms-custom-modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.mxlms-custom-modal.mxlms-in .mxlms-custom-modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.mxlms-custom-modal-open .mxlms-custom-modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.mxlms-custom-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+.mxlms-custom-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+
+.mxlms-custom-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: rgb(0 0 0 / 60%);
+}
+
+.mxlms-custom-modal-backdrop.mxlms-fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.mxlms-custom-modal-backdrop.mxlms-in {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.mxlms-custom-modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.mxlms-custom-modal-header .mxlms-custom-modal-close {
+  margin-top: -2px;
+}
+
+.mxlms-custom-modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  font-weight: 400;
+  color: #181c32 !important;
+}
+
+.mxlms-custom-modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.mxlms-custom-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+.mxlms-custom-modal-footer .mxlms-btn + .mxlms-btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.mxlms-custom-modal-footer .mxlms-btn-group .mxlms-btn + .mxlms-btn {
+  margin-left: -1px;
+}
+
+.mxlms-custom-modal-footer .mxlms-btn-block + .mxlms-btn-block {
+  margin-left: 0;
+}
+
+.mxlms-custom-modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .mxlms-custom-modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+
+  .mxlms-custom-modal-content {
+    -webkit-box-shadow: 0 2px 58px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 58px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .mxlms-custom-modal-sm {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mxlms-custom-modal-lg {
+    width: 900px;
+  }
+}
+
+.mxlms-custom-modal-clearfix:before,
+.mxlms-custom-modal-clearfix:after,
+.mxlms-custom-modal-header:before,
+.mxlms-custom-modal-header:after,
+.mxlms-custom-modal-footer:before,
+.mxlms-custom-modal-footer:after {
+  display: table;
+  content: " ";
+}
+
+.mxlms-custom-modal-clearfix:after,
+.mxlms-custom-modal-header:after,
+.mxlms-custom-modal-footer:after {
+  clear: both;
+}
+
+.mxlms-custom-modal-action-footer {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #e2e6ec;
+  height: 70px;
+}
+
+.mxlms-custom-modal-action-footer .mxlms-custom-modal-actions {
+  float: right;
+  margin: 20px;
+}
+
+/* CONFIRMATION MODAL CUSTOM CSS */
+.mxlms-confirmation-modal-label {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.mxlms-confirmation-modal .mxlms-custom-modal-dialog {
+  margin-top: 100px;
+}
+
+.mxlms-confirmation-modal
+  .mxlms-custom-modal-dialog
+  .mxlms-custom-modal-content.container.mxlms-text-center {
+  border-radius: 6px;
+}
+
+.mxlms-confirmation-modal
+  .mxlms-custom-modal-dialog
+  .mxlms-custom-modal-content.container.mxlms-text-center
+  .mxlms-custom-modal-header {
+  border-radius: 6px;
+}

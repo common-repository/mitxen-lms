@@ -1,0 +1,100 @@
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.mxlms-custom-modal.mxlms-custom-modal-right .mxlms-custom-modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 550px;
+  height: 100%;
+  padding-top: 28px;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.mxlms-custom-modal.mxlms-custom-modal-right .mxlms-custom-modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.mxlms-custom-modal.mxlms-custom-modal-right .mxlms-custom-modal-body {
+  margin-bottom: 50px;
+}
+
+.mxlms-custom-modal-body-placeholder {
+  background: url(../../img/loader.gif) no-repeat center center;
+  background-size: 150px 150px;
+  height: 83%;
+  background-color: #fff;
+}
+
+/*Right*/
+.mxlms-custom-modal.mxlms-custom-modal-right.mxlms-fade
+  .mxlms-custom-modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.mxlms-custom-modal.mxlms-custom-modal-right.mxlms-fade.mxlms-in
+  .mxlms-custom-modal-dialog {
+  right: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ----- MODAL STYLE ----- */
+.mxlms-custom-modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.mxlms-custom-modal-header {
+  border-bottom-color: #eeeeee;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  padding: 30px 20px 20px;
+}
+
+.mxlms-custom-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+}
+
+@media (max-width: 481px) {
+  .mxlms-custom-modal.mxlms-custom-modal-right .mxlms-custom-modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+  .mxlms-custom-modal-backdrop {
+    display: none;
+  }
+  .mxlms-custom-modal {
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 783px) {
+  .mxlms-custom-modal.mxlms-custom-modal-right .mxlms-custom-modal-dialog {
+    padding-top: 0px;
+  }
+  .mxlms-custom-modal {
+    z-index: 99999;
+  }
+}

@@ -1,0 +1,156 @@
+.mxlms-anim {
+  padding: 8px 0px;
+  font-weight: 600;
+  position: relative;
+}
+
+.mxlms-popover {
+  background-color: rgb(255 255 255);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  color: #000;
+  display: block;
+  font-size: 12px;
+  font-family: "Poppins";
+  position: absolute;
+  width: 300px;
+  padding: 15px;
+  bottom: 100%;
+  margin-bottom: 0px;
+  margin-left: -5px;
+  z-index: 99999;
+  font-weight: 400;
+}
+
+.mxlms-anim:hover .mxlms-popover {
+  display: block;
+  -webkit-animation: fade-in 0.1s linear 1, move-up 0.1s linear 1;
+}
+
+/* #for better cross-browser compatibility use this */
+
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+
+  to {
+    bottom: 42px;
+  }
+}
+
+@-ms-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+
+  to {
+    bottom: 42px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-up {
+  from {
+    bottom: 25px;
+  }
+
+  to {
+    bottom: 35px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-down {
+  from {
+    top: 25px;
+  }
+
+  to {
+    top: 35px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-right {
+  from {
+    left: 110px;
+  }
+
+  to {
+    left: 120px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-left {
+  from {
+    right: 110px;
+  }
+
+  to {
+    right: 120px;
+  }
+}
+
+/* Remove Below Comment to See the effect*/
+
+.mxlms-popover {
+  display: none;
+}

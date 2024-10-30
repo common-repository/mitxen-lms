@@ -1,0 +1,17 @@
+{
+    "name": "creativeitem/mxlms",
+    "description": "This is just a description",
+    "type": "project",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Creativeitem",
+            "email": "support@creativeitem.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Mxlms\\": "./inc"}
+    }
+}

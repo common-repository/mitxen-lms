@@ -1,0 +1,12 @@
+/* STYLES FOR MOBILE DEVICES */
+@media (max-width: 641px) {
+  /* STYLING TABS FOR MOBILE DEVICES */
+  .mxlms-tab-title {
+    display: none;
+  }
+  .mxlms-tabset > label {
+    padding: 10px;
+  }
+
+  
+}
